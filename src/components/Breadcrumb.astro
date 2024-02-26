@@ -1,0 +1,43 @@
+---
+interface Props {
+	title: string;
+	href?: string;
+	program?: string;
+	phase?: string;
+}
+
+const { href, title, program, phase } = Astro.props;
+
+import bannerShape1 from '../assets/images/banner-shape1.png';
+import bannerShape2 from '../assets/images/banner-shape2.png';
+import bannerShape3 from '../assets/images/banner-shape3.png';
+---
+
+<div class="bred_crumb background">
+	<div class="container">
+		<!-- shape animation  -->
+		<span class="banner_shape1">
+			<img src={bannerShape1.src} alt="image" />
+		</span>
+		<span class="banner_shape2">
+			<img src={bannerShape2.src} alt="image" />
+		</span>
+		<span class="banner_shape3">
+			<img src={bannerShape3.src} alt="image" />
+		</span>
+
+		<div class="bred_text">
+			<h1>{title}</h1>
+			<ul>
+				<li><a href="/">{program}</a></li>
+				<li><span>»</span></li>
+				<li><a href="/">{phase}</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<style>
+	.background {
+		background-image: url('../assets/images/bread_crumb_bg.png');
+	}
+</style>

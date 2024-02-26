@@ -1,0 +1,47 @@
+---
+import { Image } from "astro:assets";
+import julianaImage from "../assets/images/history_07.jpg";
+---
+
+<div class="blog_authore">
+    <div class="authore_info">
+        <div class="avtar">
+            <Image
+                src={julianaImage}
+                alt="A picture of the CEO of Estupenda Vibra"
+                class="my_image"
+            />
+        </div>
+        <div class="text">
+            <h3>Ju</h3>
+            <span
+                >Mentora Especializada en Vínculos, Sabiduría y Autenticidad y
+                Fundadora de EstupendaVibra</span
+            >
+        </div>
+    </div>
+    <div class="social_media">
+        <ul>
+            <li>
+                <a href="https://www.instagram.com/estupendavibra/"
+                    ><i class="icofont-instagram"></i></a
+                >
+            </li>
+
+            <li>
+                <a href="https://t.me/estupendavibra"
+                    ><i class="icofont-telegram"></i></a
+                >
+            </li>
+        </ul>
+    </div>
+</div>
+
+<style>
+    .my_image {
+        max-width: 100%;
+        width: 100px;
+        border-radius: 30%;
+        height: auto;
+    }
+</style>

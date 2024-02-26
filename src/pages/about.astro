@@ -1,0 +1,28 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Banner from '../components/Banner.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import Footer from '../components/Footer.astro';
+import Newsletter from '../components/Newsletter.astro';
+import MyHistory from '../components/MyHistory.astro';
+import "../styles/global.css";
+import AboutMe from '../components/AboutMe.astro';
+import Navigation from '../components/Navigation.astro';
+import WhyMe from '../components/WhyMe.astro';
+---
+
+<Layout title="Acerca de Mi">
+	<div class="page_wrapper">
+		<!-- Preloader -->
+		<!-- <div id="preloader">
+		  <div id="loader"></div>
+		</div> -->
+		<Navigation />
+		<Breadcrumb title="Sobre EstupendaVibra"/>
+		<AboutMe />
+		<WhyMe />
+		<Newsletter />
+		<Footer />
+	</div>
+</Layout>

@@ -1,0 +1,94 @@
+---
+import Banner from "../components/Banner.astro";
+import Breadcrumb from "../components/Breadcrumb.astro";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import Navigation from "../components/Navigation.astro";
+import Newsletter from "../components/Newsletter.astro";
+import Layout from "../layouts/Layout.astro";
+import "../styles/global.css";
+---
+
+<Layout title="Bootcamp EV - Estupenda Vibra">
+	<div class="page_wrapper">
+		<Navigation />
+		<Breadcrumb title="Espíritu Valiente Bootcamp"/>
+		<!-- FAQ-Section start -->
+		<section class="row_am faq_section" id="faq">
+		<!-- container start -->
+		<div class="container">
+			<div class="section_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+			<!-- h2 -->
+			<h2>Que empiece la magia</h2>
+			<!-- p -->
+			<br/>
+
+			<div class="ev_bootcamp_intro">
+				<p>Aquí te comparto qué puedes esperar del Bootcamp Espíritu Valiente, un programa creado exlusivamente para vos, 100% online y con muchísimo contenido de alto valor.</p>
+
+				<p>Este programa está dirigido a mujeres que están pasando por una ruptura amorosa, y/o quieran aprender a <b>relacionarse de otra forma,</b> en donde las guío para que <b> dejen de atraer el mismo tipo de personas.</b></p>
+						
+				<p>Aprenderás a entender y <b>gestionar tus energías Yin y Yang </b>y ver los resultados reflejados en todos sus vínculos. </p>
+
+				<p>Es un <b>programa intensivo de 17 días,</b> en donde a través de las herramientas que te voy brindando, vas a ir descubriendo esos bloqueos que te impiden relacionarte de una forma sana y equilibrada.</p>
+
+				<p>Todo esto, lo lograrás a <b>tu propio ritmo</b> 100% online, utilizando mi <b>metodo ROCk,</b> el cual he creado para organizar y estructurar los procesos vitales. </p>
+
+				<p>Además, obtendrás una <b>Sesión Regalo</b> conmigo, que podrás utilizar por haber adquirido el Bootcamp. Si, leíste bien. Es una sesión de Coaching/Mentoría conmigo, donde hablaremos de lo que tu desees. Puedes utilizarla antes, durante, o una vez finalizado el Bootcamp.</p>
+			</div>
+
+			</div>
+
+			<div class="video">
+
+			<p>¡Espero que lo disfrutes!</p>
+			<br/>
+
+			<iframe title="vimeo-player" src="https://player.vimeo.com/video/868478054?h=4d148090ab" width="100%" height="360" frameborder="0"    allowfullscreen></iframe>
+			</div>
+
+			<div class="reserve">
+			<a href="https://wa.link/kw5d58" target="_blank" class="btn white_btn">¿Lo quieres?</a>
+			</div>
+
+			<!-- faq data -->
+			<div class="faq_panel">
+			<div class="accordion" id="accordionExample">
+				<div class="card" data-aos="fade-up" data-aos-duration="1500">
+				<div class="card-header" id="headingOne">
+					<h2 class="mb-0">
+					<button type="button" class="btn btn-link active" data-toggle="collapse" data-target="#collapseOne">
+						<i class="icon_faq icofont-plus"></i></i>¿Cual es el valor de EV? </button>
+					</h2>
+				</div>
+				<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+					<div class="card-body">
+					<p>El valor de EV Bootcamp super intensivo + la Sesión Regalo conmigo es de 77 EUR</p>
+					</div>
+				</div>
+				</div>
+				<div class="card" data-aos="fade-up" data-aos-duration="1500">
+				<div class="card-header" id="headingTwo">
+					<h2 class="mb-0">
+					<button type="button" class="btn btn-link collapsed" data-toggle="collapse"
+						data-target="#collapseTwo"><i class="icon_faq icofont-plus"></i></i>¿Lo quieres?</button>
+					</h2>
+				</div>
+				<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+					<div class="card-body">
+					<p>Puedes obtener acceso a este Maravilloso Bootcamp y a tu sesión regalo en <a href="https://buy.stripe.com/bIY6qz5v80Nj82kaEF" target="_blank">este</a> link.</p>
+					<p>Una vez que realices el pago, tendrás acceso al Bootcamp EV de por vida. También podrás bookear una sesión exclusiva conmigo. Te recomiendo utilizarla en medio o al final del Bootcamp. Úsala sabiamente.</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		<!-- container end -->
+		</section>
+		<!-- FAQ-Section end -->
+  
+		<Newsletter />
+		<Footer />
+	</div>
+</Layout>

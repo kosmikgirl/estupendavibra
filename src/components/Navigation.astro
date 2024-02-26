@@ -1,0 +1,62 @@
+---
+// interface Props {
+// 	title: string;
+// 	body: string;
+// 	href: string;
+// }
+
+// const { href, title, body } = Astro.props;
+---
+
+<header class="white_header">
+	<!-- container start -->
+	<div class="container">
+		<!-- navigation bar -->
+		<nav class="navbar navbar-expand-lg">
+			<a
+				class="navbar-brand white-title"
+				href="/"
+			>
+				<img src="images/logo-estupenda-wt.png" alt="image" />
+			</a>
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<span class="navbar-toggler-icon">
+					<!-- <i class="icofont-navigation-menu ico_menu"></i> -->
+					<div class="toggle-wrap">
+						<span class="toggle-bar"></span>
+					</div>
+				</span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="/">Hogar</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about">Sobre Mi</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="mis-cursos"
+							>Cursos y Talleres</a
+						>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link dark_btn" href="contacto"> Acompañame</a
+						>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<!-- navigation end -->
+	</div>
+	<!-- container end -->
+</header>

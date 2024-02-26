@@ -1,0 +1,306 @@
+---
+import Breadcrumb from "../../../components/Breadcrumb.astro";
+import Layout from "../../../layouts/Layout.astro";
+import { Image } from "astro:assets";
+import julianaImage from "../../../assets/images/history_07.jpg";
+
+import "../../../styles/global.css";
+import Author from "../../../components/Author.astro";
+---
+
+<Layout title="Reviso Introducción">
+    <div class="page_wrapper">
+        <Breadcrumb
+            title="Bootcamp EV - Reviso"
+            program="Espíritu Valiente"
+            phase="Reviso"
+        />
+
+        <section class="blog_detail_section">
+            <div class="container">
+                <div class="blog_inner_pannel">
+                    <div class="review">
+                        <span>Bootcamp EV - Reviso</span>
+                        <span>Reviso - Día 1</span>
+                    </div>
+                    <div class="section_title">
+                        <h2>Bootcamp EV - Reviso</h2>
+                    </div>
+
+                    <div class="info espiritu-info">
+                        <h2>
+                            Tomar responsabilidad, y dejar de lado la
+                            culpabilidad
+                        </h2>
+                        <br />
+                        <p>
+                            <br />
+                            Empezamos con todo. Y no es casualidad, ya que me parece
+                            super importante que puedas entender las diferencias
+                            entre <b>responsabilidad</b> y culpabilidad.
+                            <br />
+                            <br />
+                            El motivo principal es que, como este es un programa
+                            en el que vamos a estar observando a nuestro interior,
+                            a nuestros comportamientos habituales y a nuestra forma
+                            de relacionarnos, al momento de ver algunas conductas
+                            que no nos agradan, podemos ir fácilmente hacia el terreno
+                            de la culpabilidad. Ya sea con nosotros mismos o con
+                            las personas involucradas en esa situación en la que
+                            estes trabajando en particular.
+                            <br />
+                            <br />
+                            Y quiero dejarte claro que aquí, no nos sirve de nada
+                            ponernos en esa posición, pero si en una posición totalmente
+                            responsable. Y por eso, para no confundirnos, y para
+                            no realentizar el proceso, vamos a ver que es la culpa,
+                            que es la responsabilidad, en que se diferencian, y vamos
+                            a realizar ejercicios para tener mayor calidad y así
+                            poder indagar en nosotros, aprender de nuestros errores,
+                            pero sin sentimientos que nos impidan avanzar.
+                            <br />
+                            <br />
+                            <h2>¿Culpa o responsabilidad? ¿Es lo mismo?</h2>
+                            <br />
+                            La respuesta es no.
+                            <br />
+                            <br />
+                            Cuando nos sentimos culpables por algo, nos calificamos
+                            negativamente como personas, nos sentimos mal con nosotros
+                            mismos y nos devaluamos. La <b>culpa</b> siempre afecta
+                            nuestra autoestima.
+                            <br />
+                            <br />
+                            Cuando me hago responsable, acepto mi error, pero no
+                            me siendo conmigo misma, no me devalúa como persona.
+                            <br />
+                            <br />
+                            La <b>culpa</b> nos hace pensar que somos los causantes
+                            de algo que ha pasado y que no podemos hacer nada para
+                            cambiarlo, mientras que la <b>responsabilidad</b> nos
+                            hace pensar que tenemos capacidad para modificarlo.
+                            <br />
+                            <br />
+                            Vamos a analizar las diferencias entre los dos conceptos:
+                            <br />
+                            <br />
+                            <h3>Paralización / Acción</h3>
+                            La <b>culpa</b> nos desmotiva, nos paraliza, simplemente
+                            no hacemos nada al respecto.
+                            <br />
+                            Esta inactividad nos hace entrar en un circulo vicioso.
+                            <br />
+                            Sentimos que no podemos solucionarlo, no hacemos nada
+                            al respecto y cada vez nos sentimos más culpables.
+                            <br />
+                            <br />
+                            La <b>responsabilidad</b> nos activa, nos motiva, tenemos
+                            unos objetivos que queremos conseguir y actuamos para
+                            llegar a ellos.
+                            <br />
+                            <br />
+                            <h3>Esclavitud / Libertad</h3>
+                            La <b>culpa</b> nos hace estar encerrados, pensamos que
+                            es imposible hacer nada para cambiar lo que esta sucediendo
+                            y por tanto dependemos de la situación y de las circunstancias,
+                            el control es externo y esto nos hace sentir terriblemente
+                            mal.
+                            <br />
+                            <br />
+                            La <b>responsabilidad</b> nos hace sentir que nosotros
+                            podemos cambiar las cosas, nos libera de esa esclavitud,
+                            tenemos control sobre nosotros y sobre el futuro.
+                            <br />
+                            <br />
+                            <br />
+                            <h3>Autoevaluación negativa / Valoración</h3>
+                            La <b>culpa</b> lleva asociada una valoración negativa
+                            de nosotros mismos que acaba perjudicando nuestro bienestar
+                            y nuestras relaciones personales. No confiamos en nosotros
+                            mismos y pensamos que algo externo es el causante de
+                            lo que nos ocurre.
+                            <br />
+                            <br />
+                            La <b>responsabilidad</b> nos permite luchar por nuestros
+                            objetivos y por el futuro. Esto hace que nos sintamos
+                            mas fuertes y que tengamos control para construir el
+                            futuro. Nos valoramos y nos aceptamos.
+                            <br />
+                            <br />
+                            <br />
+                            <h3>Negatividad / Positividad</h3>
+                            La <b>culpa</b> siempre está rodeada de negatividad,
+                            esta negatividad nos lleva a la inactividad y nos dificulta
+                            la capacidad de aprender y de buscar objetivos en nuestra
+                            vida.
+                            <br />
+                            <br />
+                            La <b>responsabilidad</b> está rodeada de positividad,
+                            actividad y acción ante las situaciones y los hechos
+                            que nos ocurren diariamente.
+                            <br />
+                            <br />
+                            <br />
+                            <h3>Victimismo / Control</h3>
+                            La <b>culpa</b> nos lleva a pensar que somos víctimas
+                            de las circunstancias que nosotros no podemos controlar,
+                            nos resignamos a lo que está sucediendo y de nuevo nos
+                            quedamos quietos.
+                            <br />
+                            <br />
+                            La <b>responsabilidad</b> nos hace pensar que podemos,
+                            que las cosas pueden salir mejor la próxima vez, y que
+                            el control está en nosotros.
+                            <br />
+                            <br />
+                            <br />
+                            <h3>Tristeza / Alegría</h3>
+                            La <b>culpa</b> nos sume en un estado de tristeza, como
+                            sabemos la tristeza nos quita las ganas de hacer cosas
+                            y nos lleva de nuevo a la pasividad.
+                            <br />
+                            <br />
+                            La <b>responsabilidad</b> nos permite actuar, cambiar
+                            las cosas y por tanto nos hace sentirnos capaces y alegres.
+                            <br />
+                            <br />
+                            <h3>Pasado / Futuro</h3>
+                            La <b>culpa</b> siempre nos sitúa en el pasado. Nos centramos
+                            en lo que sucedió y en lo que podríamos haber hecho y
+                            ya no podemos cambiar. Esto de nuevo nos lleva a la tristeza.
+                            <br />
+                            <br />
+                            La <b>responsabilidad</b> nos hace centrarnos en el futuro.
+                            Aceptamos lo que ocurrió y las consecuencias de nuestra
+                            conducta , y buscamos estrategias para hacerlo de forma
+                            diferente y mejor la próxima vez.
+                            <br />
+                            Como podés observar estas características están muy relacionadas
+                            entre sí.
+                            <br />
+                            <br />
+                            <hr />
+                            <h3>¿Y ahora qué?</h3>
+                            Así, con toda esta información, tenemos suficiente material
+                            para poder distinguir un sentimiento del otro.
+                            <br />
+                            <br />
+                            Y quiero que sepas que es normal si en algunas ocaciones,
+                            al revisar algunas conductas, te sientes culpable.
+                            <br />
+                            <br />
+                            No hay nada malo en ello, nos pasa a todos.
+                            <br />
+                            <br />
+                            Pero aquí queremos transformar esa <b>culpa</b> en ACCIÓN.
+                            Porque no hay absolutamente nada que no podamos cambiar
+                            ahora mismo.
+                            <br />
+                            <br />
+                            Una cosa es reconocer lo que hemos hecho, como hemos
+                            actuado, y que resultados hemos obtenido.
+                            <br />
+                            Otra es quedarnos en ese sentimiento en el cual nada
+                            podemos hacer.
+                            <br />
+                            <br />
+                            Es importante entender que si hasta ahora no hemos tenido
+                            exito en nuestras relaciones, es porque hay algo que
+                            debemos modificar de nosotros mismos. Aquí no vamos a
+                            focalizarnos en lo externo, ni en pensar que la gente
+                            de fuera es la culpable de nuestros fracasos emocionales.
+                            De esa forma estamos utilizando la culpabilidad con el
+                            afuera. Aquí, vamos a aprender a ver y reconocer cuales
+                            fueron nuestros errores, aprender de ellos, y seguir
+                            adelante. Solo así podremos ver reflejados otros resultados.
+                            <br />
+                            <br />
+                            Yo se que puede parecer fácil y tentador deshacerse de
+                            este sentimiento de responsabilidad. Pero sería como
+                            querer limpiar la casa y barrer bajo la alfombra.
+                            <br />
+                            <br />
+                            Aquí queremos hacer una limpieza real y profunda. Asique
+                            ánimos! No te dejes llevar por esos sentimientos que
+                            te paralizan, aprende de tus errores y sigue… todos los
+                            cometemos, y tener esta actitud es un camino derecho
+                            a la sabiduría.
+                            <br />
+                            <br />
+                            <hr />
+                            <h3>EJERCICIO</h3>
+                            Quisiera que agarres tu cuaderno, y hagas una lista de
+                            al menos 5 situaciones en las que recientemente tuviste
+                            un conflicto con otra persona.
+                            <br />
+                            <br />
+                            Quiero que identifiques como te sientes ahora con respecto
+                            a esa situación. Hay solamente 3 casillas. Una de ellas
+                            es CULPA, la otra RESPONSABILIDAD, y la otra EL OTRO.
+                            <br />
+                            <br />
+                            La casilla de <b>culpa</b> en donde, efectivamente me
+                            siento culpable con respecto a esa situación. Es decir,
+                            siento que lo que hice no estuvo bien, me siento mal
+                            al respecto y siento que no hay nada que pueda hacer
+                            ahora mismo
+                            <br />
+                            <br />
+                            La casilla de <b>responsabilidad</b>, es donde puedo
+                            reconocer que hay alguna accion mía que no me agradó
+                            con respecto a esa situación, pero que soy capaz de
+                            verla y actuar en consecuencia para revertirla o
+                            solucionarla.
+                            <br />
+                            <br />
+                            La casilla de <b>el otro</b>, es donde siento que el
+                            otro tiene total <b>culpa</b> y <b
+                                >responsabilidad
+                            </b> de lo que sucedió. Donde yo no tengo absolutamente
+                            nada que ver con lo sucedido, y que no hay absolutamente
+                            nada que yo pueda cambiar en un futuro para que esto
+                            no me vuelva a pasar.
+                            <br />
+                            <br />
+                            <br />
+                            <h3>NO HAY RESPUESTAS CORRECTAS O INCORRECTAS</h3>
+                            <br />
+                            Este ejercicio es solamente para vos. Se honesta contigo
+                            misma. Nadie mas vera tu cuaderno.
+                            <br />
+                            <br />
+                            En lo posible, pon las situaciones primero, y luego completa
+                            como te sientes.
+                            <br />
+                            <br />
+                            Luego de hacer el ejercicio, detente a mirar tus respuestas.
+                            Analizalas. Reflexiona. Quédate en silencio. Si luego
+                            deseas cambiarlas, puedes hacerlo. Si no, también.
+                            <br />
+                            <br />
+                            La idea de este ejercicio es solamente que puedas sacar
+                            a la luz como te sientes normalmente con respecto a las
+                            situaciones de tu vida personal. Ya veras como al final
+                            del curso, y con el paso el tiempo, volverás y tendrás
+                            otra mirada.
+                            <br />
+                            <br />
+                            Que te diviertas en tu pequeño primer ritual
+                            <br />
+                            <br />
+                            ¡Nos vemos mañana!
+                            <br />
+                            <br />
+                        </p>
+                        <a href="reviso-dia-2" class="btn white_btn"
+                            >Ir al día 2</a
+                        >
+                    </div>
+
+                    <Author />
+
+                </div>
+            </div>
+        </section>
+    </div>
+</Layout>
