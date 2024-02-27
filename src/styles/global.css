@@ -28,11 +28,12 @@
 
 
 /* @import 'aos.css'; */
+
 @import 'bootstrap.min.css';
 @import 'icofont.min.css';
 @import 'magnific-popup.min.css';
 @import 'owl.carousel.min.css';
-@import 'responsive.css';
+
 
 
 /* --------Font--------------- */
@@ -3784,13 +3785,6 @@ header.fix_style.white_header {
 
 .breadcrumb-ev {
     height: 800px;
-}
-.title-ev { 
-    font-size: 4rem !important;
-
-    @media only screen and (max-width: 600px) {
-        font-size: 3rem !important;
-    }
 }
 
 .video-box-ev {

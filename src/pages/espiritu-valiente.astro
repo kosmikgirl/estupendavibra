@@ -1,7 +1,7 @@
 ---
-import Footer from "../components/Footer.astro";
 import Layout from "../layouts/Layout.astro";
 import "../styles/global.css";
+import "../styles/responsive.css";
 ---
 
 <Layout title="Welcome to Estupenda Vibra">
@@ -9,16 +9,10 @@ import "../styles/global.css";
 		<div class="bred_crumb blog_detail_bredcrumb breadcrumb-ev">
 			<div class="container">
 			  <div class="bred_text">
-				<p class="subtitle-ev">MENTORÍA PERSONALIZADA E INTENSIVA PARA MUJERES PROFESIONALES O EMPRENDEDORAS. </p>
+				<p class="subtitle-ev">Mentoría personalizada e intensiva para mujeres profesionales o emprendedoras que buscan relacionarse desde la libertad.</p>
 				<h1 class="title-ev">Te acompaño a sanar tus vínculos, integrando tus energías Yin y Yang </h1>
 				<p class="subtitle-ev">Logralo a través de mi método ROCk⚡️de Espíritu Valiente®, una fórmula que te servirá
 				  hoy y para siempre, con todos tus vínculos y para todas las areas de tu vida.</p>
-				<!-- <ul>
-				  <li><a href="index.html">Hogar</a></li>
-				  <li><span>»</span></li>
-				  <li><a href="hacia-adentro.html">Espíritu Valiente
-					</a></li>
-				</ul> -->
 			  </div>
 			</div>
 		  </div>
@@ -285,3 +279,10 @@ import "../styles/global.css";
 	  
 	</div>
 </Layout>
+<style>
+@media screen and (max-width: 767px) {
+	.bred_crumb .bred_text h1 {
+		font-size: 34px;
+	}
+}
+</style>
