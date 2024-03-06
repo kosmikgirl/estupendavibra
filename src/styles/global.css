@@ -3785,6 +3785,10 @@ header.fix_style.white_header {
 
 .breadcrumb-ev {
     height: 800px;
+    @media only screen and (max-width: 600px)  {
+        height: auto;
+    }
+
 }
 
 .video-box-ev {
