@@ -7,13 +7,11 @@ import "../styles/responsive.css";
 <Layout title="Welcome to Estupenda Vibra">
 	<div class="page_wrapper">
 		<div class="bred_crumb blog_detail_bredcrumb breadcrumb-ev">
-			<div class="container">
-			  <div class="bred_text">
+			<div class="container mentoria-wrapper">
+			  <div class="bred_text info-mentoria-title">
 				<p class="subtitle-ev">Mentoría personalizada e intensiva para mujeres profesionales o emprendedoras que buscan vivir en libertad y plenitud. </p>
-				<h1 class="title-ev">Espíritu Valiente®</h1>
-				<h1> Te acompaño en el viaje más transformador, el reencuentro contigo misma. </h1>
-				<p class="subtitle-ev">Logralo a través de mi método ROCk⚡️de Espíritu Valiente®, una fórmula que te servirá
-				  hoy y para siempre, con todos tus vínculos y para todas las areas de tu vida.</p>
+				<h1 class="principal-title">Te acompaño a <br><i>recuperar</i> las riendas de tu vida,<br> <i>eliminar</i> tus bloqueos,<br> y <i>conectar</i> con tus dones, <br> <br> para que puedas empezar a...<br><br> priorizarte <i>sin culpas,</i> <br> sentirte <i>mas segura,</i> <br><i>disfrutar</i> de tu soledad y <br>volver a ser <i>la protagonista</i> <br>de tu historia.</h1>
+				<p class="subtitle-ev">Logralo a través e mi método integral ROCk®, una fórmula que te servirá hoy y para siempre para todas las areas de tu vida.</p>
 			  </div>
 			</div>
 		  </div>
@@ -21,7 +19,7 @@ import "../styles/responsive.css";
 		  <!-- Blog Details Block -->
 		  <section class="blog_detail_section">
 			<div class="container">
-			  <div class="blog_inner_pannel">
+			  <div class="blog_inner_pannel programa-info">
 				<div class="review">
 				  <span>Espíritu Valiente</span>
 				  <span>Plan 100% Personalizado</span>
@@ -365,11 +363,11 @@ import "../styles/responsive.css";
 	</div>
 </Layout>
 <style>
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
 	.bred_crumb .bred_text h1 {
 		font-size: 34px;
 	}
-}
+} */
 
 .card-body {
 	text-align: left;
@@ -392,5 +390,34 @@ import "../styles/responsive.css";
 .row_am {
 	padding: 0;
 	margin-bottom: 7rem;
+}
+.info-mentoria-title {
+    padding: 30px;
+	.principal-title {
+		font-size: 30px;
+		text-transform: uppercase;
+
+		@media only screen and (max-width: 600px) {
+			font-size: 25px;
+		}
+
+		i {
+			color: #ff8cc6;
+		}
+	}
+}
+
+.mentoria-wrapper {
+	width: 800px;
+	background: rgba(147, 7, 136, 0.45);
+	border-radius: 20px;
+}
+
+.programa-info {
+	margin-top: 0;
+}
+
+.breadcrumb-ev {
+	margin-top: 0;
 }
 </style>
