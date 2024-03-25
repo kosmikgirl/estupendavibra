@@ -3806,6 +3806,7 @@ header.fix_style.white_header {
 .ev-bullet-points {
     margin-inline: 2rem;
     text-align: left;
+    font-size: 0.8rem;
 }
 
 .ev-bullet-points h2 {
