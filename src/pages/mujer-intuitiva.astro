@@ -43,9 +43,9 @@ import mujerIntuitivaImage from '../assets/images/workshop-mujer-intuitiva.jpg';
 				<div class="info espiritu-info">
 				<!-- QUE INCLUYE -->
 				<div class="video-box-ev">
-					<div class="workshop-wrapper">
-						<img src={mujerIntuitivaImage.src} />
-					</div>
+				<div class="workshop-wrapper">
+					<img src={mujerIntuitivaImage.src} class="mujer-intuitiva-image"/>
+				</div>
 					
 				<div class="ev-bullet-points">
 				<h2>En este Workshop hablaremos de...</h2>
@@ -198,12 +198,22 @@ import mujerIntuitivaImage from '../assets/images/workshop-mujer-intuitiva.jpg';
 		width: 100%;
 		border-radius: 20px;
 	}
+
+	@media only screen and (max-width: 600px)  {
+
+		.mujer-intuitiva-image {
+			width: 100% !important;
+		}
+	}
+
+
 }
 
 .mujer-intuitiva-title {
 	font-family: "Parisienne", cursive;
 	font-weight: 400;
 	font-style: normal;
+	margin-top: 20px;
 
 	@media only screen and (max-width: 600px) {
 		font-size: 40px !important;
