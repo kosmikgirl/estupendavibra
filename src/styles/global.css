@@ -3812,3 +3812,7 @@ header.fix_style.white_header {
 .ev-bullet-points h2 {
     margin-bottom: 1rem;
 }
+
+p {
+    margin-block-end: 0 !important;
+}
