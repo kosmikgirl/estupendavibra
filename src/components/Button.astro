@@ -63,6 +63,11 @@ const { url, btnText } = Astro.props;
         box-shadow: 6px 6px 0 black;
         transform: skewX(-15deg);
         align-items: center;
+
+        @media only screen and (max-width: 600px) {
+			font-size: 16px;
+            padding: 10px;
+		}
     }
 
     .icon {
