@@ -1,4 +1,5 @@
 ---
+import Button from "../components/Button.astro";
 import Author from "../components/Author.astro";
 import Reviews from "../components/Reviews.astro";
 import Layout from "../layouts/Layout.astro";
@@ -13,7 +14,7 @@ import mujerIntuitivaImage from '../assets/images/workshop-mujer-intuitiva.jpg';
 <Layout title="Mujer Intuitiva® - Estupenda Vibra">
 	<div class="page_wrapper">
 		<!-- HEADER -->
-		<div class="bred_crumb blog_detail_bredcrumb breadcrumb-ev">
+		<!-- <div class="bred_crumb blog_detail_bredcrumb breadcrumb-ev">
 			<div class="container mentoria-wrapper">
 				<div class="bred_text info-mentoria-title">
 					<span class="limited">¡Cupos limitados!</span>
@@ -21,18 +22,19 @@ import mujerIntuitivaImage from '../assets/images/workshop-mujer-intuitiva.jpg';
 						Mujer <span class="highlight">Intuitiva</span></span>
 					</h1>
 					<p class="subtitle-workshop">
-						En este Workshop <span class="highlight">en vivo </span>voy a estar compartiendo los <span class="highlight">aprendizajes, experiencias, y herramientas</span> que más me han ayudado a conectar con mi herramienta más poderosa y valiosa, <span class="highlight">mi intuición</span>, y que, por supuesto, siguen haciéndolo hasta el día de hoy.
+						En este <span class="highlight">maravilloso Workshop</span> comparto los <span class="highlight">aprendizajes, experiencias, y herramientas</span> que más me han ayudado a conectar con mi herramienta más poderosa y valiosa, <span class="highlight">mi intuición</span>, y que, por supuesto, siguen haciéndolo hasta el día de hoy.
 					</p>
+					<Button btnText="Lo quiero" url="https://go.hotmart.com/R92676848B" />
 				</div>
 			</div>
-		</div>
+		</div> -->
 	  
 		  <section class="blog_detail_section">
 			<div class="container">
 				<div class="blog_inner_pannel programa-info">
 				<div class="review">
 				<span>Mujer Intuitiva</span>
-				<span>Workshop en vivo</span>
+				<span>Workshop 100% Online</span>
 				</div>
 				<div class="section_title">
 					<h2>Mujer Intuitiva</h2>
@@ -74,7 +76,8 @@ import mujerIntuitivaImage from '../assets/images/workshop-mujer-intuitiva.jpg';
 				</div>
 				<br />
 				</p>
-
+				<br />
+				<Button btnText="Acceso a Mujer Intuitiva" url="https://go.hotmart.com/R92676848B" />
 				<br />
 				<!-- PARA QUIEN -->
 				<div class="content-wrapper">
@@ -95,70 +98,47 @@ import mujerIntuitivaImage from '../assets/images/workshop-mujer-intuitiva.jpg';
 				</div>
 
 				<br />
-				<!-- QUE PODES ESPERAR-->
-				<div class="content-wrapper">
-				<h2 class="how-title">¿Cuando será Mujer Intuitiva?</h2>
-				<p>
-					Como verás, este Workshop será SUPER completo, será por la plataforma <b>Zoom</b> tendrá una duración aproximada de <b>2:30 Hrs</b>, y <b>quedará grabado</b> para quienes no puedan asistir el dia del vivo, aunque se recomienda que asistan para conocer a sus compañeras y puedan tener la posibilidad de sacarse las dudas que tengan al final, donde habrá un espacio de preguntas y respuestas.
-				</p>
-				<br />
-				<p>El workshop en vivo se hará el <b>sábado 13 de Abril a las 11.00hrs</b> (argentina).</p>
-				</div>
-				<br />
-				<br />
 
 				<!-- VALOR -->
 				<div class="content-wrapper">
 				<h2 class="how-title">¿Cuál es el valor del Workshop?</h2>
 				<p>
-					El valor será de <b>7000 ARS</b> para quienes residan en Argentina, y de <b>11 USD</b> para el resto del mundo. Se aceptan todos los medios de pago.
+					El valor es de <b>33 USD</b> + VAT. Se aceptan todas las tarjetas y medios de pago. La plataforma hará la conversión en tu moneda oficial.
 				</p>
 				</div>
 				<!-- PLATAFORMAS DE PAGO-->
 				<div class="content-wrapper">
 				<h2 class="how-title">¿Cuáles son las plataformas de pago habilitadas?</h2>
 				<p>
-				Las formas de pago habilitadas para esta inversión son <b>Transferencia Bancaria</b> (Residentes de Argentina) y <b>Stripe</b> (Exterior), y se aceptan todas las tarjetas de crédito.
+				Se aceptan todas las tarjetas de crédito que habilita la plataforma de cursos online. Esta se adapta de acuerdo a tu país de residencia.
 				</p>
 				</div>
 
 				<!-- PLATAFORMAS DE PAGO-->
 				<div class="content-wrapper">
-				<h2 class="how-title">¿Como reservo mi cupo?</h2>
+				<h2 class="how-title">¿Como adquiero el curso?</h2>
 					<p>
-						Los <b>cupos son limitados</b> para asegurar la calidad y exclusividad del contenido y que todxs tengan un espacio para hacer sus preguntas
+						Fácil. Una vez realizado el pago, Hotmart te dará acceso a la plataforma en la que podrás ver el taller, para que puedas realizarlo <b>cuando quieras, y donde quieras.</b>
 					</p>
 					<br />
-					<p>Para reservar tu espacio, puedes abonar de la siguiente forma:</p>
+					<p>El curso tiene una garantía de 15 días, si no estas satisfecha con el resultado.</p>
 					<br />
-					<stripe-buy-button
-					buy-button-id="buy_btn_1P00OvEC8f126OL5SX705ZXx"
-					publishable-key="pk_live_51OCnJhEC8f126OL5PdlLY0tr5o2fkuTJNowjhNChhnFYhUm9wCcW8kg2oB0nNQdtKlXuZMCTAM7IUn0YqyW2djWT00MoSw3yhB"
-					>
-					</stripe-buy-button>
-					<br />
-					<br />
-					<div class="pago-mp">
-						<p>Si residen en Argentina, el Alias es: <b>estupendavibra.mp</b></p>
-					</div>
-					<br />
-					<br />
-					<p>
+					<!-- <p>
 						Luego de realizar el pago, enviar su Nombre Completo con el comprobante adjunto a <b>hola@estupendavibra.com</b>
-					</p>
-					<br />
-					<p>
-						Las primeras 3 personas que se inscriban tendrán un <b>descuento del 50% </b>en mi próximo Workshop, en el que hablare de <b>Las 7 Leyes Universales y Sabiduría Primordial</b>, también conocida como filosofía perenne ❤️‍🔥
-					</p>
+					</p> -->
 				</div>
+				
 
 				<br />
 				<br />
 				<div>
 				<h2>¿Estás lista para iniciar este viaje conmigo?</h2>
 				<br />
-				¡No te lo pierdas! Reservá tu cupo antes de que se agoten
+					¡No te lo pierdas! Aprenderás herramientas maravillosas, y será la puerta de inicio a una nueva forma de percibir la vida.
 				<br />
+				<br />
+				<br />
+				<Button btnText="Quiero dominar el don de la intuición" url="https://go.hotmart.com/R92676848B" />
 				</div>
 				</div>
 
@@ -172,6 +152,7 @@ import mujerIntuitivaImage from '../assets/images/workshop-mujer-intuitiva.jpg';
 
 	</div>
 <style>
+
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 
 .limited {
@@ -326,6 +307,7 @@ import mujerIntuitivaImage from '../assets/images/workshop-mujer-intuitiva.jpg';
 	}
 	.info-mentoria-title {
 		padding: 30px;
+		/* background-image: url(../assets/background_mujer_intuitiva.png); */
 
 		.principal-title {
 			line-height: 1.3;
