@@ -1,0 +1,47 @@
+---
+// interface Props {
+// 	title: string;
+// 	body: string;
+// 	href: string;
+// }
+
+// const { href, title, body } = Astro.props;
+---
+
+<!-- podcast-Section start -->
+
+<div class="podcast_container" id="podcast">
+    <div class="podcast_wrapper">
+        <div class="podcast_info">
+            <div class="podcast_text">
+                <h4>Podcast</h4>
+                <p>Desde el 2023, llevo adelante un podcast completamente independiente.</p>
+                <p>En Ampliando Conscienia hay una gran variedad de temas que desarrollo. El crecimiento personal y la espiritualidad laica son el principal motor de este gran proyecto que te hará aprender sobre un monton de cosas y ampliar nuevos horizontes.</p>
+                <a href="https://podcasters.spotify.com/pod/show/ampliando-consciencia">Encontralo en <span>Spotify</span></a>
+            </div>
+            <iframe src="https://podcasters.spotify.com/pod/show/ampliando-consciencia/embed" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+        </div>
+
+    </div>
+</div>
+
+<style>
+.podcast_container {
+    display: flex;
+    justify-content: center;
+    background-color: var(--footer-bg);
+}
+
+.podcast_wrapper {
+    padding-block: 60px;
+    background-color: var(--footer-bg);
+    color: white;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.podcast_info {
+    display: flex;
+}
+
+</style>

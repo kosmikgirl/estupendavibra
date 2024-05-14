@@ -3614,11 +3614,6 @@ header.fix_style.white_header {
 }
 
 
-.change_img {
-    border-radius: 20px;
-    filter: grayscale(1)
-}
-
 .success-msj {
     font-size: 1.7rem;
 }
