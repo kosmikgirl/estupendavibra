@@ -2953,6 +2953,7 @@ header.fix_style.white_header {
 /* Blog Detail Css Start */
 .blog_detail_section {
     margin-bottom: 40px;
+    padding-top: 60px;
 }
 
 .blog_detail_bredcrumb.bred_crumb .bred_text {
