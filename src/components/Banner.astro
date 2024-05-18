@@ -1,5 +1,6 @@
 ---
-
+import { Image } from 'astro:assets';
+import myImage from '../assets/images/me-no-bg.png';
 ---
 
 <section class="banner_section">
@@ -83,7 +84,7 @@
 			<div class="col-lg-6 col-md-12">
 				<div class="item">
 					<div class="container_img">
-					  <img class="change_img" src="src/assets/images/me-no-bg.png" alt="image">
+					  <Image class="change_img" src={myImage} alt="Una imagen de la fundadora de EstupendaVibra"/>
 					</div>
 				  </div>
 			  </div>
