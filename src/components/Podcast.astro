@@ -14,16 +14,21 @@
     <div class="podcast_wrapper">
         <div class="podcast_info">
             <div class="podcast_text">
-                <h4>Podcast</h4>
+                <h4 class="podcast_title">Ampliando Consciencia 🎙️ Podcast</h4>
                 <p>Desde el 2023, llevo adelante un podcast completamente independiente.</p>
                 <p>En Ampliando Conscienia hay una gran variedad de temas que desarrollo. El crecimiento personal y la espiritualidad laica son el principal motor de este gran proyecto que te hará aprender sobre un monton de cosas y ampliar nuevos horizontes.</p>
-                <a href="https://podcasters.spotify.com/pod/show/ampliando-consciencia">Encontralo en <span>Spotify</span></a>
+                <a href="https://podcasters.spotify.com/pod/show/ampliando-consciencia" class="podcast_url">Encontralo en <span>Spotify</span></a>
             </div>
-            <iframe src="https://podcasters.spotify.com/pod/show/ampliando-consciencia/embed" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+            <div class="podcast_box">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/4niCQ9HZ7Mm6LpgKJ57InI?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+
         </div>
 
     </div>
 </div>
+
+
 
 <style>
 .podcast_container {
@@ -31,17 +36,46 @@
     justify-content: center;
     background-color: var(--footer-bg);
 }
-
+.podcast_title {
+    color: var(--purple);
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
 .podcast_wrapper {
     padding-block: 60px;
     background-color: var(--footer-bg);
     color: white;
     margin: 0 auto;
     max-width: 1170px;
+
+    @media only screen and (max-width: 600px) {
+        padding-inline: 20px;
+	}
+
+
 }
 
+.podcast_box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    @media only screen and (max-width: 600px) {
+        margin-top: 2rem;
+	}
+}
 .podcast_info {
     display: flex;
+
+    @media only screen and (max-width: 600px) {
+        flex-direction: column;
+	}
+}
+
+.podcast_url {
+    margin-block: 3rem;
+    color: var(--purple);
+    font-weight: bold;
 }
 
 </style>

@@ -3809,6 +3809,6 @@ header.fix_style.white_header {
     margin-bottom: 1rem;
 }
 
-p {
+/* p {
     margin-block-end: 0 !important;
-}
+} */
