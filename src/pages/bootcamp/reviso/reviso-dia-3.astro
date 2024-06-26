@@ -1,11 +1,11 @@
 ---
 import Breadcrumb from "../../../components/Breadcrumb.astro";
 import Layout from "../../../layouts/Layout.astro";
-import { Image } from "astro:assets";
-import julianaImage from "../../../assets/images/history_07.jpg";
 
-import "../../../styles/global.css";
 import Author from "../../../components/Author.astro";
+import "../../../styles/global.css";
+
+import espejo from '../../../assets/images/leyespejo.jpg';
 ---
 
 <Layout title="Reviso Introducción">
@@ -166,11 +166,7 @@ import Author from "../../../components/Author.astro";
                             <br />
                             <br />
 
-                            <img
-                                src="images/leyespejo.jpg"
-                                alt="Imagen del Ley del Espejo"
-                                class="image-curso"
-                            />
+                            <img src={espejo.src} class="image-bootcamp"/>
                             <br />
                             <br />
 
@@ -258,3 +254,14 @@ import Author from "../../../components/Author.astro";
         </section>
     </div>
 </Layout>
+
+<style>
+    /* For Mobile */
+    /* @media only screen and (max-width: 600px)  {
+    
+    } */
+        .image-bootcamp {
+            width: 100% !important;
+            border-radius: 0 !important;
+        }
+</style>

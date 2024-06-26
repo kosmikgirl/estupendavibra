@@ -4,6 +4,9 @@ import Layout from "../../../layouts/Layout.astro";
 import { Image } from "astro:assets";
 import julianaImage from "../../../assets/images/history_07.jpg";
 
+import iceberg from '../../../assets/images/cursos/iceberg.jpg';
+import johari from '../../../assets/images/cursos/johari.jpg';
+
 import "../../../styles/global.css";
 import Author from "../../../components/Author.astro";
 ---
@@ -65,11 +68,8 @@ import Author from "../../../components/Author.astro";
                             <br />
                             <br />
                         </p>
-                        <img
-                            src="images/cursos/iceberg.jpg"
-                            alt=""
-                            class="image-curso"
-                        />
+
+                        <img src={iceberg.src} class="image-bootcamp"/>
                         <br />
                         <br />
                         <p>
@@ -245,11 +245,7 @@ import Author from "../../../components/Author.astro";
                             <br />
                             <br />
                             <br />
-                            <img
-                                src="images/cursos/johari.jpg"
-                                alt=""
-                                class="image-curso"
-                            />
+                            <img src={johari.src} class="image-bootcamp"/>
                             <br />
                             <br />
                             <h3>La ventana de Johari</h3>
@@ -357,3 +353,14 @@ import Author from "../../../components/Author.astro";
         </section>
     </div>
 </Layout>
+
+<style>
+/* For Mobile */
+/* @media only screen and (max-width: 600px)  {
+
+} */
+    .image-bootcamp {
+        width: 100% !important;
+        border-radius: 0 !important;
+    }
+</style>
