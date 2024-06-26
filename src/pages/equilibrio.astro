@@ -393,6 +393,11 @@ import Podcast from "../components/Podcast.astro";
 }
 .image-box {
 	display: flex;
+
+	@media only screen and (max-width: 600px) {
+		flex-direction: column;
+		align-items: center;
+	}
 }
 
 </style>
