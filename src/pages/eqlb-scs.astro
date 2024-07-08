@@ -1,0 +1,33 @@
+---
+import ContactMe from '../components/ContactMe.astro';
+import Footer from '../components/Footer.astro';
+import Navigation from '../components/Navigation.astro';
+import Newsletter from '../components/Newsletter.astro';
+import Layout from '../layouts/Layout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import "../styles/global.css";
+import "../styles/responsive.css";
+---
+
+<Layout title="¡Hablemos!">
+	<div class="page_wrapper">
+		<Breadcrumb title="Gracias por tu compra! Más abajo encontrarás los enlaces ✨" />
+		<div class="class_wrapper">
+			<p>Puedes acceder a la Primera Clase de EQUILIBRIO <a href="https://youtu.be/4hJ9HubjJYo?si=Hz_oorbzloxs9tad">aquí</a></p>
+			<p>Puedes acceder a la Segunda Clase de EQUILIBRIO <a href="">aquí</a> (Disponible ONLINE a partir del 11/07)</p>
+		</div>
+	</div>
+</Layout>
+
+<style>
+	.class_wrapper {
+		height: 100vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		a {
+			color: palevioletred
+		}
+	}
+</style>
