@@ -1,0 +1,304 @@
+---
+import Author from "../components/Author.astro";
+import FaqEV from "../components/FaqEV.astro";
+import Reviews from "../components/Reviews.astro";
+import Layout from "../layouts/Layout.astro";
+
+import "../styles/global.css";
+import "../styles/responsive.css";
+
+---
+
+<Layout title="Espíritu Valiente® - Estupenda Vibra">
+	<div class="page_wrapper">
+	  
+		  <section class="blog_detail_section espiritu-valiente-wrapper">
+			<div class="container">
+				<div class="blog_inner_pannel programa-info">
+				<h3 class="before-title">Mujeres <span class="tapered">profesionales</span> o <span class="tapered">emprendedoras</span> <br> que buscan mejorar notablemente <br> la calidad de su salud energética y sus vínculos </h3>
+				<div class="section_title">
+					<!-- <h2>Espíritu Valiente</h2> -->
+					<h4>Te ayudo a cortar <span>de raíz</span>
+					esos <span>patrones destructivos</span> ⚔️ <br>
+					que se te repiten <span>una y otra vez</span> en tus relaciones, <br>
+					para que puedas manifestar una vida <br> de <span>libertad, disfrute y abundancia</span> <br>
+					contigo y con tus vínculos.</h4>
+				</div>
+
+				<div class="info espiritu-info">
+				<!-- QUE INCLUYE -->
+				<div class="video-box-ev">
+					<div class="youtube-video-container">
+						<iframe class="youtube-video" src="https://www.youtube.com/embed/V0X94mQy8ho?si=kmPXNgrZKWSjxpgE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+					</div>
+				<div class="ev-bullet-points">
+				<h2>¿Que incluye?</h2>
+
+				<p><i class="icofont-businesswoman"></i> Sesiones Individuales y 100% personalizadas conmigo, en donde te brindaré guía y apoyo en tu proceso.
+				</p>
+
+				<p><i class="icofont-computer"></i> El Bootcamp EV 100% Online, donde aprenderás el método ROCk®, constituido de 3 fases integrales. Reviso, Ordeno y Creo. </p>
+
+				<p><i class="icofont-woman-bird"></i> Guía personalizada y adaptada de autoconocimiento a través de los 5 Elementos Fundamentales, Numerología y el Camino del Héroe.</p>
+
+				<p><i class="icofont-eye-open"></i> Enfoque holístico con meditaciones, breathwork, microacciones y reprogramación del subconsciente.</p>
+
+				<p><i class="icofont-speech-comments"></i> Acceso a la comunidad de Mujeres Valientes</p>
+				</div>
+				</div>
+				<br />
+				<div class="reserve">
+				<a href="https://meet.brevo.com/juliana-rocha/sesion-de-claridad-1-a-1" class="btn white_btn">QUIERO
+				AGENDAR</a>
+				</div>
+				</p>
+
+				<FaqEV />
+				<br />
+
+				</div>
+
+	
+				<div>
+				<h2>¿Estás lista para iniciar este viaje conmigo?</h2>
+				<br />
+				Agenda una sesión de claridad ahora. No lo postergues más.
+				<br />
+				<br />
+
+
+				<h4 class="important-information">INFORMACIÓN IMPORTANTE: Por favor, ten en cuenta que la sesión de claridad no tiene costo, pero tiene mucho valor, por su contenido, y sobre todo, por mi tiempo. Si luego de agendar, y ver los requisitos, decides que no es algo para ti, cancela la sesión con al menos <b>24 horas de anticipación</b>, por respeto hacia mi y el recurso más valioso que tenemos: nuestro tiempo.</h4>
+				<div>
+					<iframe frameborder="0" width="100%" height="1000" src="https://meet.brevo.com/juliana-rocha/borderless?l=sesion-de-claridad-1-a-1"></iframe>
+				</div>
+				</div>
+				</div>
+				<br />
+
+				<Reviews />
+				
+			
+			</div>
+		  	</div>
+		</section>
+
+	</div>
+<style>
+
+	.espiritu-valiente-wrapper {
+		margin-top: 0 !important;
+	}
+
+	.tapered {
+	background-image: linear-gradient(180deg,#C28BAFff 0%, #C28BAFff 50%,transparent 54%, transparent 100%);
+		@media only screen and (max-width: 600px) {
+			background-image: none !important;
+		}
+	}
+
+	.before-title {
+		font-size: 1.6rem;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 3.5rem;
+		padding: 1.4rem;
+		border: 4px solid #c7c7c7;
+		@media only screen and (max-width: 600px) {
+			font-size: 1rem;
+		}
+		
+		span {
+			background-size:  100% 15%;
+			background-repeat: repeat-x;
+			background-position: left 0% bottom 10%;
+		}
+	}
+
+	.review {
+		text-align: center;
+	}
+
+.section_title {
+	h4 {
+		margin-top: 30px;
+		font-size: 1.8rem;
+		font-weight: bold;
+		color: #424040;
+
+		@media only screen and (max-width: 600px) {
+			font-size: 1.3rem;
+			font-weight: bold;
+		}
+
+		span {
+			color: #C28BAFff;
+		}
+	}
+}
+.blog_detail_section {
+	margin-top: 100px;
+}
+
+
+.important-information {
+	background: #662e59;
+    padding: 2rem;
+    color: white;
+    margin-bottom: 2rem;
+	font-size: 1.2rem;
+	b {
+		color: #ffb3b3;
+	}
+}
+.reserve {
+	margin-top: 30px;
+}
+
+.youtube-video-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.youtube-video-container::after {
+  display: block;
+  content: "";
+  padding-top: 56.25%;
+}
+
+.youtube-video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+	
+@media only screen and (max-width: 600px) {
+  .white_btn {
+	padding: 10px 20px;
+	font-size: 0.8rem;
+  }
+
+  .subtitle-ev {
+	font-size: 12px;
+  }
+
+  .principal-title {
+	font-size: 22px;
+  }
+
+  .mentoria-wrapper {
+	width: 350px;
+	margin-top: 20px !important;
+  }
+  .info-mentoria-title {
+	padding: 10px !important;
+  }
+
+  .breadcrumb-ev {
+	height: 100vh !important;
+  }
+
+  .ev-bullet-points h2 {
+	font-size: 1.4rem;
+  }
+
+  .ev-bullet-points {
+	margin-inline: 0;
+	font-size: 0.8rem;
+
+	@media only screen and (max-width: 600px) {
+		margin-top: 50px;
+	}
+  }
+
+  .how-title {
+	font-size: 1.7rem;
+  }
+}
+
+	.content-wrapper p {
+		text-align: justify;
+	}
+
+	.my-list {
+		text-align: left;
+		padding-left: 30px !important;
+
+		li {
+			list-style-type: disc;
+			margin-bottom: 0.5rem;
+		}
+	}
+
+	.card-body {
+		text-align: left;
+		p {
+			margin: 0;
+		}
+		.title {
+			font-size: 1.2rem;
+			color: rgb(63, 63, 63);
+			margin-bottom: 1rem;
+		}
+	}
+	.accordion-text {
+		text-align: left;
+	}
+	.how-title {
+		margin-bottom: 1.5rem;
+		margin-top: 3rem;
+	}
+	.row_am {
+		padding: 0;
+		margin-bottom: 7rem;
+	}
+	.info-mentoria-title {
+		padding: 30px;
+
+		.principal-title {
+			line-height: 1.3;
+			font-size: 30px;
+			text-transform: uppercase;
+
+		@media only screen and (max-width: 600px) {
+			font-size: 20px;
+			padding: 0 !important;
+		}
+
+	}
+}
+
+.mentoria-wrapper {
+	width: 800px;
+	background: rgba(147, 7, 136, 0.45);
+	border-radius: 20px;
+	@media only screen and (max-width: 600px) {
+		margin-top: 100px;
+		width: 300px;
+	}
+
+}
+
+.breadcrumb-ev {
+	@media only screen and (max-width: 600px) {
+		height: auto;
+	}
+}
+
+.programa-info {
+	margin-top: 0;
+}
+
+.breadcrumb-ev {
+	margin-top: 0;
+}
+
+
+.highlight {
+	font-style: italic;
+	color: #ff8cc6;
+}
+
+</style>
