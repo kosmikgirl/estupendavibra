@@ -1,0 +1,23 @@
+---
+import Breadcrumb from '../components/Breadcrumb.astro';
+import Footer from '../components/Footer.astro';
+import Newsletter from '../components/Newsletter.astro';
+import Layout from '../layouts/Layout.astro';
+import AboutMe from '../components/AboutMe.astro';
+import Navigation from '../components/Navigation.astro';
+import WhyMe from '../components/WhyMe.astro';
+import "../styles/global.css";
+import "../styles/responsive.css";
+import AboutTarot from '../components/AboutTarot.astro';
+---
+
+<Layout title="Acerca de Mi">
+	<div class="page_wrapper">
+		<Navigation />
+		<Breadcrumb title="Evolutionary Tarot by Juliana"/>
+		<AboutTarot />
+		<!-- <WhyMe /> -->
+		<Newsletter />
+		<Footer />
+	</div>
+</Layout>
